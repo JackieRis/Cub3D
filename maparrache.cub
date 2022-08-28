@@ -1,0 +1,28 @@
+//info
+
+NO ./tagrandmere.xpm
+SO
+WE
+EA
+F
+C
+
+hetjet
+
+1111
+N1111111111
+10000000001
+10000000001
+11111111111111
+111111
+
+
+int	truc(char *line)
+{
+	int	i;
+
+	i = 0;
+	while (line[i] && line[i] == ' ')
+		i++;
+	return (line[i] == '1' || line[i] == '0');
+}
